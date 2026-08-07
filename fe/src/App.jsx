@@ -4,6 +4,12 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+/*Pitfall
+If your state variable is an object, remember that you can’t update only one field in it without explicitly copying the other fields. 
+For example, you can’t do setPosition({ x: 100 }) in the above example because it would not have the y property at all! Instead, 
+if you wanted to set x alone, you would either do setPosition({ ...position, x: 100 }), or split them into two state variables and do setX(100). 
+*/
+
 function App() {
   const [count, setCount] = useState(0)
 
