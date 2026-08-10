@@ -11,7 +11,7 @@ if you wanted to set x alone, you would either do setPosition({ ...position, x: 
 */
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
