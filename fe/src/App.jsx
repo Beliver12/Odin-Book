@@ -15,6 +15,7 @@ function App() {
   const [count1, setCount1] = useState(20);
   const [me, setMe] = useState('me')
   const [you, setYou] = useState('you')
+  const [me, setMe] = useState('me')
 
   return (
     <>
