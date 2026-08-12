@@ -13,6 +13,7 @@ if you wanted to set x alone, you would either do setPosition({ ...position, x: 
 function App() {
   const [count, setCount] = useState(0);
   const [count1, setCount1] = useState(20);
+  const [you, setYou] = useState('you')
 
   return (
     <>
